@@ -6,5 +6,4 @@ from . import views
 
 urlpatterns = [
     path('', views.index, name='index'),  # Tu vista principal
-    # path('productos/', views.productos, name='productos'),  # Agrega más rutas aquí
 ] 
